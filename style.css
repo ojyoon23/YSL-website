@@ -1,5 +1,5 @@
 :root {
-  --bs-body-font-size: 0.8rem;
+  --bs-body-font-size: 1rem;
 }
 
 h2 {
@@ -10,20 +10,20 @@ h2 {
 }
 
 .navbar {
-  padding: 0.5rem 0.2rem;
+  padding: 0.5rem 3rem;
   --bs-navbar-nav-link-padding-x: 0.7rem;
   --bs-navbar-brand-padding-y: 0.15rem;
   --bs-navbar-toggler-padding-y: 0.15rem;
   --bs-navbar-toggler-padding-x: 0.55rem;
-  --bs-navbar-toggler-font-size: 1rem;
+  --bs-navbar-toggler-font-size: 2rem;
 }
 
 .form-control {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .btn {
-  --bs-btn-font-size: 0.8rem;
+  --bs-btn-font-size: 1rem;
 }
 
 .btn-outline-success {
@@ -77,6 +77,23 @@ footer {
 }
 
 @media screen and (max-width: 48rem) {
+  :root {
+    --bs-body-font-size: 0.8rem;
+  }
+
+  .navbar {
+    padding: 0.5rem 1.5rem;
+    --bs-navbar-toggler-font-size: 1rem;
+  }
+
+  .form-control {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    --bs-btn-font-size: 0.8rem;
+  }
+
   .f-firstline {
     text-align: center;
   }
