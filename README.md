@@ -1,7 +1,7 @@
 # YSL-website
 Built Saint Laurent website.
 
-* Demo: https://YSL-website.oliviayoon.repl.co
+* Demo: https://ysl-website-ojyoon23.netlify.app/
 
 Used
 * HTML
